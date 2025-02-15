@@ -75,6 +75,16 @@
             box-sizing: border-box;
             text-align: center;
         }
+         /* Nuevo estilo para las imágenes */
+         .carousel-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Cubre todo el espacio manteniendo la proporción */
+            object-position: center; /* Centra la imagen */
+            /* position: absolute; */
+            /* top: 0; */
+            /* left: 0; */
+        }
 
         .carousel-controls {
             display: flex;
@@ -194,19 +204,19 @@
             <button class="carousel-button next">→</button>
             <div class="carousel-inner">
                 <div class="carousel-item">
-                    Aquí va tu primera foto especial
+                    <img src="img/1.jpg" alt="">
                 </div>
                 <div class="carousel-item">
-                    Aquí va tu segunda foto especial
+                    <img src="img/2.jpg" alt="">
                 </div>
                 <div class="carousel-item">
-                    Aquí va tu tercera foto especial
+                    <img src="img/3.jpg" alt="">
                 </div>
                 <div class="carousel-item">
-                    Aquí va tu cuarta foto especial
+                    <img src="img/4.jpg" alt="">
                 </div>
                 <div class="carousel-item">
-                    Aquí va tu quinta foto especial
+                    <img src="img/5.jpg" alt="">
                 </div>
             </div>
             <div class="carousel-controls">
